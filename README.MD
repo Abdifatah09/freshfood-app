@@ -1,0 +1,38 @@
+# Full-Stack FreshFood Application
+
+This is a full-stack application for a fictional FreshFood marketplace that allows users to register, log in, create posts, and manage their accounts. It uses a React-based frontend and a Node.js backend with a PostgreSQL database.
+
+## Features
+
+- **User Authentication**: Sign up, login, and secure JWT token-based authentication.
+- **Post Management**: Users can create, update, and delete posts.
+- **Role-Based Access**: Different user roles (Buyer, Seller).
+- **Responsive Design**: The app is fully responsive and works well on mobile and desktop devices.
+
+## Technologies Used
+
+### Frontend:
+- React.js
+- Tailwind CSS for styling
+- Axios for HTTP requests
+- React Router for routing
+
+### Backend:
+- Node.js
+- Express.js for API routes
+- Sequelize ORM for database interaction
+- PostgreSQL for database
+- JWT for authentication
+
+### Tools:
+- Git for version control
+- Postman for API testing
+
+## Installation
+
+### Backend Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/freshfood-app.git
+   cd freshfood-app
