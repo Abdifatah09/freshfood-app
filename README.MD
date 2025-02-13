@@ -75,5 +75,47 @@ This is a full-stack application for a fictional FreshFood marketplace that allo
 
 The frontend should now be running on http://localhost:3000.
 
+## API Endpoints
+
+### Authentication
+
+- POST /api/register: Register a new user.
+- POST /api/login: Get a new JWT token.
+
+## Users
+
+- GET /api/users: Get a list of all users (requires authentication).
+- DELETE /api/delete/:id: Delete a user (requires authentication).
+
+## Posts
+
+- POST /api/add-post: Add a new post (requires authentication).
+- GET /api/view-post: View posts by a user (requires authentication).
+- PATCH /api/edit-post/:id: Edit a post (requires authentication).
+- DELETE /api/delete-post/:id: Delete a post (requires authentication).
+
+## Contributing 
+
+1. Fork this repository.
+
+2. Create a new braqnch for your feature.
+   ```bash
+   git checkout -b feature-name
+
+3. Make your changes, commit then push them to your branch
+    ```bash
+   git commit -m 'Add feature'
+   git push origin feature-name
+
+4. Open a pull request to merge your changes
+
+## Acknowledgments
+
+Thanks to the developers of React, Express, and PostgreSQL. Special thanks to the open-source community for all the tools used in this project.
+
+
+
+
+
 
 
