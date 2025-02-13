@@ -61,45 +61,19 @@ This is a full-stack application for a fictional FreshFood marketplace that allo
 
 ### Frontend Setup
 
-1. Navigate to the frontend directory (make sure to open another terminal)
-  ```bash
+1. Navigate to the frontend directory (make sure to open another terminal):
+   ```bash
    cd frontend
 
-2. Install frontend dependencies
-   ```bash
+2. Install frontend dependencies:
+    ```bash
    npm install
 
 3. Run the frontend
-   ```bash
+    ```bash
    npm start
 
 The frontend should now be running on http://localhost:3000.
-
-## API Endpoints
-
-### Authentication:
-- `POST /api/register`: Register a new user.
-- `POST /api/login`: Log in and get a JWT token.
-
-### Posts:
-- `POST /api/add-post`: Add a new post (requires authentication).
-- `GET /api/view-post`: View posts by a user (requires authentication).
-- `PATCH /api/edit-post/:id`: Edit a post (requires authentication).
-- `DELETE /api/delete-post/:id`: Delete a post (requires authentication).
-
-### Users:
-- `GET /api/users`: Get a list of all users (requires authentication).
-- `DELETE /api/delete/:id`: Delete a user (requires authentication).
-
----
-
-## Contributing
-
-1. Fork this repository.
-2. Create a new branch for your feature:
-   ```bash
-   git checkout -b feature-name
-
 
 
 
