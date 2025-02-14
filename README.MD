@@ -82,12 +82,12 @@ The frontend should now be running on http://localhost:3000.
 - POST /api/register: Register a new user.
 - POST /api/login: Get a new JWT token.
 
-## Users
+### Users
 
 - GET /api/users: Get a list of all users (requires authentication).
 - DELETE /api/delete/:id: Delete a user (requires authentication).
 
-## Posts
+### Posts
 
 - POST /api/add-post: Add a new post (requires authentication).
 - GET /api/view-post: View posts by a user (requires authentication).
